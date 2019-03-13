@@ -1,0 +1,11 @@
+.*.swp
+._*
+.DS_Store
+.git
+.npmrc
+npm-debug.log
+.idea
+
+test
+.eslintrc.js
+.eslintignore
