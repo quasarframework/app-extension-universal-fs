@@ -22,7 +22,11 @@
     "audit:licenses": "nlf --summary detail > ./test/audits/licenses.txt",
     "precommit": "yarn test && node node_modules/.bin/snyk test && node node_modules/.bin/jest-badges-readme && git add 'README.md' && node_modules/.bin/lint-staged"
   },
-  "dependencies": {},
+  "dependencies": {
+    "file-saver": "^2.0.1",
+    "fs-web": "^1.0.1",
+    "path": "^0.12.7"
+  },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
