@@ -1146,8 +1146,11 @@
     strip-ansi "^5.0.0"
 
 "@quasar/quasar-app-extension-universal-fs@link:../..":
-  version "0.0.0"
-  uid ""
+  version "1.0.0-alpha.1"
+  dependencies:
+    file-saver "^2.0.1"
+    fs-web "^1.0.1"
+    path "^0.12.7"
 
 "@types/babel__core@^7.1.0":
   version "7.1.2"
@@ -1495,9 +1498,9 @@ acorn-walk@^6.0.1, acorn-walk@^6.1.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^5.5.3:
-  version "5.7.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.3.tgz#67aa231bf8812974b85235a96771eb6bd07ea279"
-  integrity sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.7.4.tgz#3e8d8a9947d0599a1796d10225d7432f4a4acf5e"
+  integrity sha512-1D++VG7BhrtvQpNbBzovKNc1FLGGEE/oGe7b9xJm/RFHMBeUaUGpluV9RLjZa47YFdPcDAenEYuq9pQPcMdLJg==
 
 acorn@^6.0.1, acorn@^6.0.2, acorn@^6.0.7, acorn@^6.2.0:
   version "6.2.0"
@@ -7438,9 +7441,10 @@ path@^0.12.7:
     process "^0.11.1"
     util "^0.10.3"
 
-"path@git://github.com/component/path.git#7b4f23c38833a5232cd5e3d50ccb8cd13dbcd2f4":
+"path@git://github.com/component/path#7b4f23c38833a5232cd5e3d50ccb8cd13dbcd2f4":
   version "1.0.0"
-  resolved "git://github.com/component/path.git#7b4f23c38833a5232cd5e3d50ccb8cd13dbcd2f4"
+  uid "7b4f23c38833a5232cd5e3d50ccb8cd13dbcd2f4"
+  resolved "git://github.com/component/path#7b4f23c38833a5232cd5e3d50ccb8cd13dbcd2f4"
 
 pathval@^1.1.0:
   version "1.1.0"
